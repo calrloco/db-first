@@ -1,0 +1,38 @@
+TABLE NAME: AUTO
+
+
+               DATATYPE     ATTRIBUTES  DEFAULT
+Id_auto        INT           (PK)           
+
+marca          VARCHAR(60)   (NN)
+
+modello        VARCHAR(70)   (NN)
+
+categoria      varchar(20)   (NN) 
+
+Anno           DATE          (NN)    
+
+targa          VARCHAR(9)    (NN,UQ)
+
+cilindrata     VARCHAR(9)    (NN)
+
+colore         VARCHAR(20)   (NN)
+
+disponibilita  TINYINT       (NN)       (1)
+
+prezzo         FLOAT(10,2)   (NN)
+
+poster         VARCHAR                  (poster path)
+
+
+
+
+
+
+
+       
+               
+
+
+  
+
